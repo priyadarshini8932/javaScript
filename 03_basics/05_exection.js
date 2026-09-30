@@ -10,4 +10,4 @@
 // {}  -> memory creation phase (does memory allocation)
 //     -> execution phase
 
- 
+ console.log("Hello");
