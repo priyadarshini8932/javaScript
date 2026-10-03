@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<!-- documents starts from here -->
+<head>
+    <meta charset="UTF-8">
+    <title>DOM learning</title>
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color:#fff;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <div>
+        <h1 style="color:blue" id="title" class="heading">DOM learning on Chai aur code <span style="display:none">test text</span></h1>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <input type="password" name="" id="">
+
+        <ul>
+            <li class="list-item">one</li>
+            <li class="list-item">two</li>
+            <li class="list-item">third</li>
+            <li class="list-item">four</li>
+        </ul>
+    </div>
+</body>
+</html>
+<!-- html is made with object only
+console.dir(document)
+console.log(window)
+
+html is a collection by default not an array, tho it can be converted to an array
+it doesn't have properties like map, forEach etc -->
+
+<!-- innertext me jo content visible hai wahi dikhega but textcontent use krke sara content visible hoga -->
+<!-- 
+innerHTML pura html ka value dega, uske andar koi html likh rakha hai to wo bhi milega wapas -->
+
+
+<!-- nodelist is not array so use forEach loop. map is for array -->
