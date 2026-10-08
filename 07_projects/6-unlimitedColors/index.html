@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../styles.css" />
+
+    <style>
+      html {
+        overflow-x: hidden; /* stops 100vw from causing a horizontal scrollbar */
+      }
+
+      body {
+        margin: 0; /* removes the default gap above the navbar */
+      }
+
+      /* Navbar */
+      nav {
+        width: 100vw; /* full window width, grows/shrinks with it */
+        position: relative;
+        left: 50%;
+        margin-left: -50vw;
+        box-sizing: border-box;
+        background-color: #eeeeee;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        border-bottom: 1px solid #777;
+      }
+
+      nav a {
+        color: black;
+        background-color: #eeeeee;
+        border: 1px solid #777;
+        padding: 3px 15px;
+        text-decoration: none;
+        font-size: 14px;
+        border-radius: 4px;
+      }
+
+      nav a:first-child {
+        background-color: #d0d0d0; /* Home looks active/darker */
+      }
+    </style>
+  </head>
+  <body style="background-color: #212121; color: #fff">
+    <nav>
+      <a href="/" aria-current="page">Home</a>
+      <a target="_blank" href="https://www.youtube.com/@chaiaurcode"
+        >Youtube channel</a
+      >
+    </nav>
+
+    <h1>Start should change the Background color every second</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <script src="chaiaurcode.js"></script>
+  </body>
+</html>
