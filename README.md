@@ -1,3 +1,5 @@
 # javaScript
 A code repo for javascript series on youtube from basics to advanced.
 Recently done with basics moving to intermediate, now to advanced
+learning oops in js
+moving towards the last 5 topics
